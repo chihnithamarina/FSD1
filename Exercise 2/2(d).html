@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Frames</title>
+</head>
+
+<frameset rows="33%,34%,33%">
+
+    <frame srcdoc="
+        <html>
+        <body>
+            <h2>Image</h2>
+            <img src='C:\Users\chihn\OneDrive\Desktop\FSD LAB\images\tom and jerry.png' width='200' height='150'>
+        </body>
+        </html>
+    ">
+
+    <frame srcdoc="
+        <html>
+        <body>
+            <h2>Paragraph</h2>
+            <p>
+                HTML is used to create and design web pages.
+                It provides different tags for displaying
+                text, images and hyperlinks.
+            </p>
+        </body>
+        </html>
+    ">
+
+    <frame srcdoc="
+        <html>
+        <body>
+            <h2>Hyperlink</h2>
+            <a href='https://www.youtube.com' target='_blank'>
+                Open YouTube
+            </a>
+        </body>
+        </html>
+    ">
+
+    <noframes>
+        <body>
+            Your browser does not support frames.
+        </body>
+    </noframes>
+
+</frameset>
+
+</html>
